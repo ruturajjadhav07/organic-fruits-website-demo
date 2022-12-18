@@ -1,0 +1,273 @@
+.banner {
+    background-image: url(photos/photo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.caption {
+    margin-top: 350px;
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.captionlink {
+    margin-top: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* secondpage */
+.secondpageimage {
+    margin-top: 550px;
+    padding-bottom: 44px;
+}
+
+.secondpageimage .sph1 {
+    margin: 30px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.spimg{
+    padding-top: 50px;
+}
+
+
+/* carousel */
+
+.banner1 {
+    background-image: url(photos/photo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.tph1{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.tph2{
+    text-align: center;
+    font-size: 55px;
+    /* padding-top: 30px; */
+}
+
+.cards-wrapper{
+    display: flex;
+}
+
+.card{
+    margin: 0 0.5em;
+    width: calc(100%/4);
+}
+
+.image-wrapper{
+    height: 22vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;*/
+} 
+
+.image-wrapper img{
+height: 100%;
+width: 100%;
+}
+
+.btn-primary{
+text-align: center;
+margin-left: 120px;
+}
+
+
+.photoslide{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+
+/* testimonal starts */
+
+.container-carousel{
+padding-top: 100px;
+}
+
+.banner2{       
+    /* background: blueviolet; */
+    background-image: url(photos/photo5.jpg);
+    font-family: montserrat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top:130px;
+}
+section {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+.section-header{
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 25px;
+    color: #fff;
+}
+.section-header:after{
+    content: '';
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    background: #fff;
+}
+.section-header span {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
+.testimonials{
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
+}
+.single-item{
+    background: whitesmoke;
+    color: #111;
+    padding: 15px;
+    margin: 80px 65px;
+    border-radius: 10px;
+    opacity: 90%;
+}
+.profile{
+    margin-bottom: 10px;
+    text-align: center;    
+}
+.img-area {
+	margin: 0 15px 15px 15px;
+}
+.img-area img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 7px solid blueviolet;
+}
+.content{
+    font-size: 18px;
+}
+.content p {
+	text-align: justify;
+}
+.content p span {
+	font-size: 48px;
+	margin-right: 20px;
+    color: blueviolet;
+}
+
+.bio h4 {
+	font-family: 'Berkshire Swash', cursive;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: blueviolet;
+}
+
+/* footer starts */
+
+.footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: black; */
+
+}
+
+footer {
+    background: whitesmoke;
+    height: auto;
+    width: 100%;
+    font-family: sans-serif;
+    color:#454545;
+    padding-top: 300px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 29px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0 38px 0;
+    list-style: none;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+}
+
+.socials a i{
+    font-size: 18px;
+}
+
+.footer-bottom{
+    background-color: black;
+    width: 100vh;
+    padding: 20px 0;
+    text-align: center;
+    color: whitesmoke;
+    width: 100%;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200px;
+}
